@@ -1,0 +1,30 @@
+.ft1{
+	text-align:center;
+}
+
+.nt li{
+	margin-top: 10px;
+	color: black;
+}
+
+ul 	li a {
+	font-size: 20px;
+	color: white;
+} 
+
+.footer{
+	font-size: 1.4rem !important;
+	color: white;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+
+}
+i {
+	color: white;
+}
+hr{
+	color: white;
+}

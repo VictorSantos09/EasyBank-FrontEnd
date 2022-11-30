@@ -1,0 +1,137 @@
+@charset"UTF-8";
+
+a {
+    margin-left: 15px;
+}
+
+.Tamanholetra {
+    font-size: 25px;
+}
+
+.img {
+    width: 80px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.imgEmprestimo {
+    width: 80px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 12px;
+}
+
+.boxPix {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 32px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxEmprestimo {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 5px;
+    padding: 20px;
+    padding-left: 17px;
+    padding-right: 15px;
+
+}
+
+.boxPoupanca {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 28px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxFatura {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 13px;
+}
+
+.boxDebito {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 21px;
+    padding-bottom: 0px;
+    padding-top: 13px;
+}
+
+.boxPerfil {
+    float: left;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin: 10px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 31px;
+    padding-right: 30px;
+}
+
+.card {
+    background-color: rgb(240, 238, 238);
+}
+
+.saldo {
+    margin-left: 12px;
+}
+
+.card-body {
+    margin: 0px;
+    margin-right: 0px;
+}
+
+@media(max-width: 500px) {
+
+    .card-body {
+        margin-left: 0px !important;
+        padding: 0px;
+    }
+}
+
+.colorFooter{
+background-color:#4D98D2
+;
+
+}
