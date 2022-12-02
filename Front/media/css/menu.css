@@ -89,7 +89,7 @@ a {
     font-family: 'Roboto', sans-serif;
     background-color: #fdfdfd;
     margin-left: 10px;
-    padding: 21px;
+    padding: 23px;
     padding-bottom: 0px;
     padding-top: 13px;
 }
@@ -102,7 +102,7 @@ a {
     font-family: 'Roboto', sans-serif;
     background-color: #fdfdfd;
     margin: 10px;
-    margin-left: 5px;
+    margin-left: 6px;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 31px;
@@ -134,4 +134,60 @@ a {
 background-color:#4D98D2
 ;
 
+}
+
+.boxPoupancaValores {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 23px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxPoupancaOutrosValores {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxPoupancaConfirmar {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxPoupancaNovoSaldo {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 2px #e5e7ea;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    margin-left: 10px;
+    padding: 75px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }

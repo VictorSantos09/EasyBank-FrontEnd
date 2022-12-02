@@ -1,0 +1,20 @@
+
+.titulo{
+    background-color: #7a7ceb;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 500px) {
+
+    .btnChaves {
+        font-size: 20px;
+        text-align: center !important;
+        margin-left: 0px;
+    }
+  
+}
