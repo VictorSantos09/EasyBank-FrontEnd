@@ -1,0 +1,44 @@
+#bodyCadastro{
+    background-image: linear-gradient(#368dff, #14126e);
+}
+.login-box input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(0, 25, 248);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(15, 13, 13);
+    font-size: 16px;
+}
+.login-box input[type="nome"], input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(0, 25, 248);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.form-control{
+   border: none;
+   border-bottom: 1px solid rgb(0, 25, 248);
+   outline: none;
+   height: 40px;
+   color: rgb(0, 0, 0) !important;
+   font-size: 16px;
+   border-radius: 0px;
+   background-color: transparent !important;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
