@@ -1,0 +1,14 @@
+@charset"UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+.containerText {
+    margin-top: 5%;
+    margin-right: 50%;
+    font-family: 'Lato';
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 2px #4D98D2;
+}
+
+#color {
+    background-color: #174D75;
+}
