@@ -36,11 +36,11 @@ background-color:rgb(0, 204, 255);
 	color: white !important;
 	align-items: center;
 	font-size: 20px;
-	
+
 }
 
 #screen-opacity {
-	width: 99,8vw;
+	width: 99, 8vw;
 	height: 1183px;
 	background-color: rgba(60, 60, 60, 0.5);
 	z-index: 1;
@@ -48,5 +48,29 @@ background-color:rgb(0, 204, 255);
 
 #container {
 	z-index: 0;
-	
+
+}
+
+ul>li {
+	display: inline-block;
+}
+
+nav>ul>li>ul {
+	width: 700px;
+	height: 70px;
+	display: none;
+
+}
+
+nav>ul>li:hover>ul {
+	display: block;
+
+}
+
+#card-infos {
+	position: absolute;
+	color: white;
+	background: rgb(168, 182, 186);
+	border-radius: 1cm;
+	margin-left: -10cm;
 }
