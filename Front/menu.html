@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,8 +19,8 @@
             <img src="media\images\logo.png" style="width: 90px;">
         </div>
         <div class="col-6 text-right">
-            <h5>14/12/22 - 19:30</h5>
-            <h5>Olá, Thiago da Silva</h5>
+            <h5 id="dateToday"></h5>
+            <h5 id="userName"></h5>
         </div>
         </div>
         </a>
@@ -30,7 +30,7 @@
         <div class="Container-Fluid">
             <div class="card ">
                 <div class="card-body">
-                    <p class="saldo Tamanholetra">Saldo em conta:</p>
+                    <p class="saldo Tamanholetra" id="moneyInAccount"></p>
 
                     <div class="boxPix">
                         <a class="navbar-brand" href="pixValor.html">
@@ -46,22 +46,19 @@
                     </div>
                     <div class="boxPoupanca">
                         <a class="navbar-brand" href="poupancaInvestir.html">
-                            <img class="img"
-                                src="media\images\poupanca.png">
+                            <img class="img" src="media\images\poupanca.png">
                             <p class="Tamanholetra">Poupança</p>
                         </a>
                     </div>
                     <div class="boxFatura">
                         <a class="navbar-brand" href="#">
-                            <img class="img"
-                                src="media\images\pagarFatura.png">
+                            <img class="img" src="media\images\pagarFatura.png">
                             <p class="Tamanholetra">Pagar fatura</p>
                         </a>
                     </div>
                     <div class="boxDebito">
                         <a class="navbar-brand" href="#">
-                            <img class="img"
-                                src="media\images\debitoAutomatico.png">
+                            <img class="img" src="media\images\debitoAutomatico.png">
                             <p class="Tamanholetra" style="margin-bottom: 5px ;">Débito <br> automático</p>
                         </a>
                     </div>
@@ -92,6 +89,10 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="JS/TodayDate.js"></script>
+    <script src="JS/GetName.js"></script>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
