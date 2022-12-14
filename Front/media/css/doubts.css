@@ -15,14 +15,18 @@
     margin-bottom: 20px;
 }
 
+.hover_button_colapse:hover {
+    color: rgb(0, 0, 0);
+}
+
 /*NÃO MUDA cor do botão nem a fonte sem o !IMPORTANT*/
 .button {
         float: left;
         text-align: center;
         border-radius: 3px;
         box-shadow: 3px 3px 3px 2px #c2dff1;
-        font-family: 'Lato', sans-serif !important;
-        background-color: #FFF !important;
+        font-family: 'Lato', sans-serif;
+        background-color: #FFF ;
         padding: 32px;
         padding-bottom: 20px;
         padding-top: 20px;

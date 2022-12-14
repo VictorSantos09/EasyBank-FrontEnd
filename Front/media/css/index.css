@@ -74,3 +74,42 @@ nav>ul>li:hover>ul {
 	border-radius: 1cm;
 	margin-left: -10cm;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+.containerText {
+    margin-right: 50%;
+    font-family: 'Lato';
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #4D98D2;
+}
+#color {
+    background-color: #174D75;
+}
+.image_size {
+    width: 320px;
+}
+#image1 {
+    margin-left: 190px;
+}
+.border_image {
+    box-shadow: 3px 3px 3px 2px #aeafb1;
+}
+.slogan {
+    margin-top: 100px;
+    font-family: 'Lato';
+    margin-left: 60px;
+    color: #030303;
+}
+#font_title {
+    font-size: 100px;
+	color: rgb(255, 255, 255);
+}
+#font_subtitle {
+    font-size: 70px;
+	color: rgb(255, 255, 255);
+}
+#font_text {
+    font-size: 50px;
+    color: rgb(255, 255, 255) !important;
+}
