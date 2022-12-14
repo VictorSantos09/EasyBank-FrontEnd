@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
 
 .containerText {
-    margin-top: 10%;
     margin-right: 50%;
     font-family: 'Lato';
     border-radius: 3px;
@@ -23,4 +22,24 @@
 
 .border_image {
     box-shadow: 3px 3px 3px 2px #aeafb1;
+}
+
+.slogan {
+    margin-top: 100px;
+    font-family: 'Lato';
+    margin-left: 60px;
+    color: #030303;
+}
+
+#font_title {
+    font-size: 100px;
+}
+
+#font_subtitle {
+    font-size: 70px;
+}
+
+#font_text {
+    font-size: 50px;
+    color: rgb(7, 7, 7);
 }

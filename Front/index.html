@@ -7,17 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/3b47dd4ac9.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3b47dd4ac9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="media\css\index.css">
   <link rel="stylesheet" href="media\css\footer.css">
+  <link rel="stylesheet" href="media\css\about_Us.css">
   <title>Index</title>
 </head>
 
 <body class="body">
   <nav id="container" class="navbar navbar-expand-lg navbar-custom-opacity text-center">
     <a class="navbar-brand" href="index.html">
-      <img src="media\images\logo.png"
-        style="width: 110px; margin-left: 50px;">
+      <img src="media\images\logo.png" style="width: 110px; margin-left: 50px;">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,37 +28,72 @@
         <li class="nav-item active" style="margin-right: 70px;">
           <a class="nav-link slide-center-out header-text" href="index.html">Início</a>
         </li>
-        <li class="nav-item" style="margin-right: 70px;">
-          <a class="nav-link slide-center-out header-text" href="#">Duvidas</a>
-        </li>
-        <li class="nav-item" style="margin-right: 70px;">
-          <a class="nav-link slide-center-out header-text " href="#">Serviços</a>
-        </li>
-        <nav>
-          <ul>
-            <li class="nav-item" style="margin-right: 70px;">
-              <a class="nav-link slide-center-out header-text" data-bs-toggle="dropdown" aria-expanded="false">Fale
-                conosco</a>
-              <ul id="card-infos" class="dropdown">
-                <li><a>0800 666 6611<br>easybank@gmail.com</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <li class="nav-item" style="margin-right: 70px;">
-          <a class="nav-link slide-center-out header-text" href="http://127.0.0.1:5500/Front/beneficios.html">Benefícios</a>
-        </li>
-      </ul>
-      <lu class="navbar-nav mr-auto">
-        <li>
-          <a class="btn btn-outline-info" style="margin-right: 70px; font-size: 20px;" type="submit"
-            href="login.html">Faça sua simulaçao</a>
-        </li>
-      </lu>
+        <nav id="navbar-example2"></nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item" style="margin-right: 70px;">
+            <a class="nav-link slide-center-out header-text" href="#scrollspyHeading1">Sobre</a>
+          </li>
+          <li class="nav-item" style="margin-right: 70px;">
+            <a class="nav-link slide-center-out header-text" href="#scrollspyHeading2">Dúvidas</a>
+          </li>
+          <nav>
+            <ul>
+              <li class="nav-item" style="margin-right: 70px;">
+                <a class="nav-link slide-center-out header-text" data-bs-toggle="dropdown" aria-expanded="false">Fale
+                  conosco</a>
+                <ul id="card-infos" class="dropdown">
+                  <li><a>0800 666 6611<br>easybank@gmail.com</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <li class="nav-item" style="margin-right: 70px;">
+            <a class="nav-link slide-center-out header-text"
+              href="http://127.0.0.1:5500/Front/beneficios.html">Benefícios</a>
+          </li>
+        </ul>
+        <lu class="navbar-nav mr-auto">
+          <li>
+            <a class="btn btn-outline-info" style="margin-right: 70px; font-size: 20px;" type="submit"
+              href="login.html">Faça sua simulaçao</a>
+          </li>
+        </lu>
     </div>
-
   </nav>
-  <div id="screen-opacity"></div>
+
+  <div id="screen-opacity">
+    <div class="row">
+      <div class="col-6">
+        <div class="slogan">
+          <div id="font_title">
+            <a>EasyBank</a>
+          </div>
+          <div id="font_subtitle">
+            <a>Simplificar para facilitar.</a>
+            <br>
+            <div id="font_text">
+              <a>Somos a versão acessível do seu aplicativo bancário!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example"
+      tabindex="0">
+      <div id="scrollspyHeading1">
+        <h3>SOBRE NÓS</h3>
+      </div>
+    </div>
+    <br><br><br><br>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example"
+      tabindex="0">
+      <div id="scrollspyHeading2">
+        <h3>DUVIDAS</h3>
+      </div>
+    </div>
+  </div>
+
   <footer class="ft page-footer font-small indigo navbar-custom-opacity">
     <div class="container text-center text-md-left">
 
@@ -73,7 +108,7 @@
               <i class="fab fa-facebook "></i>
               <a href="#" style="text-decoration: none;">Facebook </a>
             </li>
-
+            <br>
             <li>
               <i class="fab fa-instagram "></i>
               <a href="#" style="text-decoration: none;">Instagram</a>
@@ -93,6 +128,7 @@
           <ul class="nt list-unstyled">
             <li><a href="#" data-target="#modal_duvidas" data-toggle="modal" style="text-decoration:none;">Dúvidas</a>
             </li>
+            <br>
             <li><a href="#" data-target="#modal_sugestao" data-toggle="modal"
                 style="text-decoration:none;">Sugestões</a></li>
             <li><a href="#" data-target="#modal_feedback" data-toggle="modal" style="text-decoration:none;">Feedback</a>
